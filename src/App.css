@@ -6,3 +6,12 @@ html {
   justify-content: center;
   height: 100%;
 }
+
+.mybutton{
+   background: yellowgreen;
+   border: none;
+   outline: none; 
+   border-radius: 20px;
+   padding: 10px;
+   cursor: pointer;
+}
