@@ -1,5 +1,7 @@
 # React.js tutorials
 
+## Fundamentals of React
+
 - creating components.
 - writing JSX.
 - Adding Styles.
@@ -9,3 +11,7 @@
 - responding the events
 - using hooks
 - sharing data between components
+
+## Building games : Tic-Tac-Toe
+
+- Building the board
