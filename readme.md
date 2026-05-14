@@ -15,3 +15,4 @@
 ## Building games : Tic-Tac-Toe
 
 - Building the board
+- passing data through props

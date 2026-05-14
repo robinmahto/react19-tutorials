@@ -1,9 +1,9 @@
-import Square from "../components/games/Square";
+import Board from "../components/games/Board";
 
 const Games = () => {
   return (
     <>
-      <Square />
+      <Board />
     </>
   );
 };
