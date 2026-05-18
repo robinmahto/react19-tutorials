@@ -16,3 +16,4 @@
 
 - Building the board
 - passing data through props
+- making a interactive component
