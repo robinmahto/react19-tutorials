@@ -14,6 +14,12 @@
 
 ## Building games : Tic-Tac-Toe
 
+### Overview
+
 - Building the board
 - passing data through props
 - making a interactive component
+
+### Completing the game
+
+- Lifting state up
