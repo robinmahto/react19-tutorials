@@ -14,12 +14,22 @@ const Square = ({ value, onSqaureClick }: props) => {
 };
 
 const Board = () => {
+  const [xIsNext, setXisNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
   function handleClick(i) {
+    if(squares[i]){
+      return;
+    }
     const nextSqaures = squares.slice();
-    nextSqaures[i] = "X";
+    if(xIsNext){
+      nextSqaures[i] = "X";
+    }else{
+      nextSqaures[i] = "O";
+    }
+    
     setSquares(nextSqaures);
+    setXisNext(!xIsNext)
   }
 
   return (

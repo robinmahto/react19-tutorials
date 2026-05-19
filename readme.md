@@ -23,3 +23,6 @@
 ### Completing the game
 
 - Lifting state up
+- why immutability is important
+- Taking turns
+- Declaring a winner
