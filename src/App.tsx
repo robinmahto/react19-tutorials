@@ -1,9 +1,11 @@
 // import { useState } from "react";
 import "./App.css";
+import FilterableProductTable from "./pages/FilterableProductTable";
+import { ProductsData } from "./utils/product";
 // import AboutPage from "./components/AboutPage";
 // import { MyButton } from "./components/MyButtons";
 // import Products from "./components/Products";
-import Games from "./pages/Games";
+// import Games from "./pages/Games";
 
 export function App() {
   // const [count, setCount] = useState(0);
@@ -18,7 +20,8 @@ export function App() {
       {isLogin ? <AboutPage /> : <><MyButton count={count} setCount={setCount} /><MyButton count={count} setCount={setCount}/></>}
       <Products /> */}
 
-      <Games />
+      {/* <Games /> */}
+      <FilterableProductTable product={ProductsData} />
     </>
   );
 }
